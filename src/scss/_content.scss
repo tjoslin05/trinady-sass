@@ -13,9 +13,23 @@
     min-width: 550px;
   }
 
+  p, ul, ol, dl {
+    font-size: 2.0rem;
+    line-height: 2.1rem;
+  }
+
  img, video {
     height: 350px;
     width: 550px;
     margin-bottom: 30px;
+  }
+
+  a {
+    color: $secondary-color;
+  }
+
+  ul {
+    list-style: square;
+    list-style-position: inside;
   }
 }
